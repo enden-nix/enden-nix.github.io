@@ -1,0 +1,15 @@
+:root {
+    --text-color: #f8a;
+    --back-color: #fff;
+}
+
+
+body {
+    color: var(--text-color);
+    background-color: var(--back-color);
+    font-family: serif;
+    width: 60%;
+    max-width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+}
