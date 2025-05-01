@@ -10,6 +10,9 @@
   font-weight: 500;
   font-style: normal;
 }
+.honbun {
+  position: absolute;
+}
 .logo {
   padding: 10px 0;
 }
