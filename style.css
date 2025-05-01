@@ -10,6 +10,24 @@
   font-weight: 500;
   font-style: normal;
 }
+.logo {
+  padding: 10px 0;
+}
+.multi_column {
+  display: flex;
+  margin-top: 20px;
+}
+.menu {
+  flex: 3;
+  min-height: 200px;
+  margin-right: 20px;
+}
+.content {
+  flex: 1;
+  position: relative;
+  padding-top: 40px;
+  text-align: center;
+}
 
 body {
     color: var(--text-color);
