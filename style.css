@@ -42,7 +42,7 @@ a {
 .content {
   flex: 2;
   position: relative;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: left;
   line-height:30px;
 }
