@@ -11,7 +11,7 @@ a {
 .noto-sans-jp-<Noto> {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 500;
   font-style: normal;
 }
 .shippori-mincho-b1-regular {
@@ -35,13 +35,15 @@ a {
   margin-left: 40px;
   margin-right: 100px;
   font-family: "Noto Sans JP", sans-serif;
+  font-weight: 200;
   line-height:40px;
 }
 .content {
   flex: 1;
   position: relative;
+  margin-top: 20px;
   text-align: left;
-  line-height:20px;
+  line-height:30px;
 }
 
 body {
