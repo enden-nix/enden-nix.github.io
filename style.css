@@ -28,12 +28,14 @@ a {
 }
 .multi_column {
   display: flex;
+  justify-content: left;
   margin-top: 20px;
 }
 .menu {
   flex: 1;
   min-height: 200px;
   margin-left: 40px;
+  margin-right: 100px;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 200;
   line-height:40px;
