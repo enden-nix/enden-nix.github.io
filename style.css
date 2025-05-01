@@ -2,19 +2,28 @@
     --text-color: #e84509;
     --back-color: #ddd;
 }
+a {
+    text-decoration: none;
+    color: #e84509;
+}
 
 
-.noto-sans-jp-<noto> {
+.noto-sans-jp-<Noto> {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 200;
+  font-style: normal;
+}
+.shippori-mincho-b1-regular {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
   font-style: normal;
 }
 .honbun {
   position: absolute;
 }
 .logo {
-  padding: 10px 0;
+  padding: 20px;
 }
 .multi_column {
   display: flex;
@@ -23,21 +32,24 @@
 .menu {
   flex: 3;
   min-height: 200px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 100px;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height:40px;
 }
 .content {
   flex: 1;
   position: relative;
-  padding-top: 40px;
-  text-align: center;
+  text-align: left;
+  line-height:20px;
 }
 
 body {
     color: var(--text-color);
     background-color: var(--back-color);
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
     font-optical-sizing: auto;
-    font-weight: 500;
     font-style: normal;
     width: 100%;
     margin: 0 auto;
